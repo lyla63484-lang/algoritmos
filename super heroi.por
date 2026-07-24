@@ -3,7 +3,7 @@ programa {
     cadeia nome
     inteiro nivelPoder
     real velocidadeMaxima
-    logico habilidadededeVoo
+    logico habilidadedeVoo
 
     nome = "Mulher Gato"
     nivelPoder = 95
