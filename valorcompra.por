@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real valorCompra = 100.0
+    cadeia cupom = "FESTA 10"
+
+    escreva("Valor atual: R$", valorCompra)
+
+    //SE SIMPLES: só age se o cupom for valido
+
+    se(cupom == "FESTA 10"){
+      valorCompra = valorCompra - 10.0
+      escreva("\nCupom aplicado!Desconto de R$ 10.00.")
+     }
+
+     escreva("\nTotal a pagar: R$", valorCompra)
+    
+  }
+}
